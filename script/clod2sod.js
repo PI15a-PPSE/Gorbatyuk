@@ -350,7 +350,6 @@ function MainField() {
                     }
                 }
                 cnt_click = 0;
-                
                 pa.count_clod();
                 pa.refreshGame();
             } else         
