@@ -330,6 +330,7 @@ function MainField() {
         $('.info').remove();
         this.initGame();
 
+        
         var in_game = document.getElementsByClassName("game");
         for (var i = 0; i < in_game.length; i++) {
             in_game[i].addEventListener("click", click_field);
