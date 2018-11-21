@@ -341,7 +341,6 @@ function MainField() {
         for (var i = 0; i < in_info.length; i++) {
             in_info[i].addEventListener("click", click_info);
         }
-
         function click_info() {
             if (this.id == "reset") {
                 for (var i = 0; i < 8; i++) {
