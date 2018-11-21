@@ -1,0 +1,146 @@
+#play_field { 
+    position : absolute;
+    top : 10%; 
+    left: 50%;
+    transform: translate(-50%,0%);
+    background-color : rgb(200,200,256);
+    box-shadow: 0px 0px 20px #000;
+    z-index:0;
+}
+
+.levels {
+    position : absolute;
+    background-color : rgb(0, 161, 0);
+    border-style: solid;
+    text-align: center;
+    color: white;
+    font-size : 20px;
+    z-index:1;
+}
+
+.game {
+    position : absolute;
+    margin-top: 12%;
+    margin-left: 19.3%;
+    transform: translate(100%,-50%);
+    border-style: solid;
+    border-width: 2px;
+    border-color:black; 
+}
+
+.rules {
+    position : absolute;
+    text-shadow: black 1px 1px 0, black -1px -1px 0,black -1px 1px 0, black 1px -1px 0;
+    border : none;
+    width: 100%
+}
+
+.rules h3 {
+    margin-top: 1.5%;
+    font-size : 40px;
+    font-weight : bold;
+    color : white;
+    text-align : center; 
+}
+
+.rules p {
+    font-size : 30px;
+    font-weight : bold;
+    color : white;
+    margin-left: 65px;
+    margin-top: -6%;
+}
+
+.info div{
+    background-color: rgb(0, 0, 0);
+    position : absolute;
+    display: table-cell;
+    vertical-align: middle;
+    font-size : 26px;
+    color : white; 
+    text-shadow: black 1px 1px 0, black -1px -1px 0,black -1px 1px 0, black 1px -1px 0;
+    width: 808px;
+    height: 30px;
+}
+
+.score {
+    position : absolute;
+    left: 65px;
+    top: 81%;
+    border : none;
+    background-color :none;
+}
+
+.score p {
+    font-size : 30px;
+    font-weight : bold;
+    color : white;
+    text-align : left; 
+    text-shadow: black 1px 1px 0, black -1px -1px 0,black -1px 1px 0, black 1px -1px 0;
+}
+
+.levels:hover{
+    background-color: green;
+}
+
+h1{
+    position : absolute;
+    left : 0%; top : 0%; width : 100%; height : 5%;
+    border : none;
+    font-size : 25px;
+    color: black;
+}
+
+#sods {
+    width: 30%;
+    left: 30%;
+}
+
+#moves {
+    width: 30%;
+}
+
+#reset {
+    color: blue;
+    text-align: center;
+    width: auto;
+    width: 20%;
+    left: 60%;
+}
+#exit {
+    color: blue;
+    text-align: center;
+    width: auto;
+    width: 20%;
+    left: 80%;
+}
+
+#reset:hover{
+    color: white;
+}
+
+#exit:hover{
+    color: white;
+}
+
+#num_lev{
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 20%;
+    display: table;
+}
+
+#frame{
+    background: brown;
+    margin-top: 10%;
+    margin-left: 60%;
+    margin-bottom: 5%;
+    width: 30px;
+    height: 30px;
+}
+
+#d_moves {
+    position: absolute;
+    margin-top: 50%;
+    margin-left: 10%;
+}
