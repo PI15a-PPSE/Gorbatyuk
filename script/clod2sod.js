@@ -328,9 +328,7 @@ function MainField() {
         $('.score').remove();
         $('.game').remove();
         $('.info').remove();
-        this.initGame();
-        
-
+        this.initGame();      
         
         var in_game = document.getElementsByClassName("game");
         for (var i = 0; i < in_game.length; i++) {
