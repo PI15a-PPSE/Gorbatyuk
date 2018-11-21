@@ -329,6 +329,7 @@ function MainField() {
         $('.game').remove();
         $('.info').remove();
         this.initGame();
+        
 
         
         var in_game = document.getElementsByClassName("game");
