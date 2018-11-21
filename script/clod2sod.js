@@ -367,6 +367,7 @@ function MainField() {
         }
         
         function click_field() {
+            
             for(var i = 0; i < 8; i++){
                 for(var j = 0; j < 8; j++){
                     if(this.id == "sod_" + i + "_" + j){
