@@ -370,9 +370,7 @@ function MainField() {
             for(var i = 0; i < 8; i++){
                 for(var j = 0; j < 8; j++){
                     if(this.id == "sod_" + i + "_" + j){
-                      if(lv[i][j] == -1){
-                        lv[i][j] = 1;
-                      }
+                      if(lv[i][j] == -1) lv[i][j] = 1;
                       else{
                         lv[i][j] = -1;
                       }
