@@ -350,6 +350,7 @@ function MainField() {
                     }
                 }
                 cnt_click = 0;
+                
                 pa.count_clod();
                 pa.refreshGame();
             } else         
@@ -365,7 +366,6 @@ function MainField() {
                     pa.refreshLevels();
                 }
         }
-        
         
         function click_field() {
             for(var i = 0; i < 8; i++){
