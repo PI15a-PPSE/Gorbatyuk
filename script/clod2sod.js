@@ -376,18 +376,10 @@ function MainField() {
                       else if (lv[i - 1][j] != 0) lv[i - 1][j] = -1;
                       if(lv[i + 1][j] == -1) lv[i + 1][j] = 1;
                       else if (lv[i + 1][j] != 0) lv[i + 1][j] = -1;
-                      if(lv[i][j - 1] == -1){
-                        lv[i][j - 1] = 1;
-                      }
-                      else if (lv[i][j - 1] != 0){
-                        lv[i][j - 1] = -1;
-                      }
-                      if(lv[i][j + 1] == -1){
-                        lv[i][j + 1] = 1;
-                      }
-                      else if (lv[i][j + 1] != 0){
-                        lv[i][j + 1] = -1;
-                      }
+                      if(lv[i][j - 1] == -1) lv[i][j - 1] = 1;
+                      else if (lv[i][j - 1] != 0) lv[i][j - 1] = -1;
+                      if(lv[i][j + 1] == -1) lv[i][j + 1] = 1;
+                      else if (lv[i][j + 1] != 0) lv[i][j + 1] = -1;
                       cnt_click++;
                       pa.count_clod();
                       pa.refresh_game();
