@@ -328,9 +328,7 @@ function MainField() {
         $('.score').remove();
         $('.game').remove();
         $('.info').remove();
-        this.initGame();
-        
-
+        this.initGame();      
         
         var in_game = document.getElementsByClassName("game");
         for (var i = 0; i < in_game.length; i++) {
@@ -341,6 +339,7 @@ function MainField() {
         for (var i = 0; i < in_info.length; i++) {
             in_info[i].addEventListener("click", click_info);
         }
+
         function click_info() {
             if (this.id == "reset") {
                 for (var i = 0; i < 8; i++) {
