@@ -372,18 +372,10 @@ function MainField() {
                     if(this.id == "sod_" + i + "_" + j){
                       if (lv[i][j] == -1) lv[i][j] = 1;
                       else lv[i][j] = -1;
-                      if(lv[i - 1][j] == -1){
-                        lv[i - 1][j] = 1;
-                      }
-                      else if (lv[i - 1][j] != 0){
-                        lv[i - 1][j] = -1;
-                      }
-                      if(lv[i + 1][j] == -1){
-                        lv[i + 1][j] = 1;
-                      }
-                      else if (lv[i + 1][j] != 0){
-                        lv[i + 1][j] = -1;
-                      }
+                      if(lv[i - 1][j] == -1) lv[i - 1][j] = 1;
+                      else if (lv[i - 1][j] != 0) lv[i - 1][j] = -1;
+                      if(lv[i + 1][j] == -1) lv[i + 1][j] = 1;
+                      else if (lv[i + 1][j] != 0) lv[i + 1][j] = -1;
                       if(lv[i][j - 1] == -1){
                         lv[i][j - 1] = 1;
                       }
