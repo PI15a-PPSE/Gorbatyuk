@@ -413,12 +413,6 @@ var cnt_sod = 0;
 var cnt_clod = 0;
 var cnt_click = 0;
 var score = 0;
-<<<<<<< HEAD
-var second = 0;
-=======
-var sec = 0;
->>>>>>> lab4
-
 $(document).ready(function() {
     pa = new MainField();
     pa.refreshLevels();
