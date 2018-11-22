@@ -413,6 +413,7 @@ var cnt_sod = 0;
 var cnt_clod = 0;
 var cnt_click = 0;
 var score = 0;
+var second = 0;
 
 $(document).ready(function() {
     pa = new MainField();
