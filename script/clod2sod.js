@@ -328,13 +328,7 @@ function MainField() {
         $('.score').remove();
         $('.game').remove();
         $('.info').remove();
-<<<<<<< HEAD
-        this.initGame();      
-        
-=======
         this.initGame();
-                
->>>>>>> lab3.2
         var in_game = document.getElementsByClassName("game");
         for (var i = 0; i < in_game.length; i++) {
             in_game[i].addEventListener("click", click_field);
